@@ -1,0 +1,21 @@
+cell c = 10 ;
+drob d = 4.34 ;
+strak s = "ura" ;
+logic r = 34 ;
+s = frend ;
+r = c < d ;
+c = 45 ;
+d = 22.4 ;
+print ~ ( c + 12 ) ;
+print ~ d ;
+print ~ r ;
+esli [ c > d ] {
+d = 2.45 ;
+c = 2 ;
+print ~ d ;
+print ~ c ;
+}
+kolco [ c ] {
+print ~ c ;
+c = c - 1 ;
+}

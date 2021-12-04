@@ -1,0 +1,54 @@
+KakToTak language 
+
+
+The types - cell(int), drob(double), strak(string), logic(bool)
+in decleration you can variable not assign and it will be initialized to zero
+for type cell are declared + , - , * , / arithmetic:: = attribution:: and == , != , < , > , <= , >=  logic operations
+for type drob are declared + , - , * , / arithmetic:: = attribution:: and == , != , < , > , <= , >=  logic operations
+for type strak are declared + operation
+in same line is declared only one actions (+, -, *, /)
+in language bass is if of c++ , the difference is that here there are [] brackets for the condition esli(if) and
+the same is for kolco(while);
+and for output is print(cout) and ~(<<), in same line can be any printable values that are separated by this sign ~ 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+and an example of code that is declaring 2 variables and prints their arithmetic average
+
+cell a = 23 ;
+cell b = 7 ;
+a = a + b ;
+print ~ a ;
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+and an example of loop work, the code is printing [4, 1] range numbers with difference 1
+
+cell a = 4 ;
+kolco [a > 0] {
+print ~ a ;
+a = a - 1 ;
+}
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+and an example 
+
+cell c = 10 ;
+drob d = 4.34 ;
+strak s = "ura" ;
+logic r = 34 ;
+s = frend ;
+r = c < d ;
+c = 45 ;
+d = 22.4 ;
+print ~ ( c + 12 ) ;
+print ~ d ;
+print ~ r ;
+esli [ c > d ] {
+d = 2.45 ;
+c = 2 ;
+print ~ d ;
+print ~ c ;
+}
+kolco [ c ] {
+print ~ c ;
+c = c - 1 ;
+}
